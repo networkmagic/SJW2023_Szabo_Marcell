@@ -13,6 +13,6 @@ document.getElementById("elkuld").addEventListener("click", () => {
 
     const szam = Math.floor(Math.random() * 100)  + 1;
     document.getElementById("order").innerText = szam;
-    document.getElementById("total").innerText = tipus * darab + ar;
+    document.getElementById("total").innerText = tipus * darab + ar  + " Ft";
     document.getElementById("alert").style.display = "block";
 })

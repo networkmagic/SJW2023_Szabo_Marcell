@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+body {
+    background: url('../img/bg_pizza.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.container h1, h2 {
+    font-family: 'Cabin Sketch', cursive; 
+}
+
+.container h1 {
+    font-size: 7em;
+    text-transform: capitalize;
+}
+
+.container h2 {
+    font-size: 3em;
+}
+
+@media screen and (max-width: 768px) {
+    .container h1 {
+        font-size: 50px;
+    }    
+}
+
+.container ul li {
+    list-style: url('../img/pizza_icon.png');
+    line-height: 30px;
+}
+
+.container ul li span {
+    color: #414A04;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container p {
+    height: 2em;
+    text-indent: 15px;
+}
+
+.keret {
+    border: #5d6a09 double dotted 1px;
+    background-color: #ffeccb;
+}
+
+img {
+    box-shadow: 2px 2px 5px #5d6a09;
+}
+
+footer a {
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer a:hover {
+    background-color: black;
+}
